@@ -18,3 +18,5 @@ Stepper
 - pink =>  GPIO 9
 - yellow => GPIO 10
 - orange => GPIO 11
+
+[![chicken_Coop.png](https://s26.postimg.org/c01179yrt/chicken_Coop.png)](https://postimg.org/image/7qwb53vid/)
