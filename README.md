@@ -14,7 +14,7 @@ buttons
 - topLimit => GPIO 5
 
 Stepper
-- blue => 8
-- pink => 9
-- yellow => 10
-- orange => 11
+- blue => GPIO 8
+- pink =>  GPIO 9
+- yellow => GPIO 10
+- orange => GPIO 11
