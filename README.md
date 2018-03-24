@@ -14,9 +14,9 @@ Buttons
 - topLimit => GPIO 5
 
 Stepper
-- blue => GPIO 8
-- pink =>  GPIO 9
-- yellow => GPIO 10
-- orange => GPIO 11
+- blue => GPIO 8 => in1 (of stepper board driver)
+- pink =>  GPIO 9 => in2
+- yellow => GPIO 10 => in3
+- orange => GPIO 11 => in4
 
 [![chicken_Coop.png](https://s26.postimg.org/c01179yrt/chicken_Coop.png)](https://postimg.org/image/7qwb53vid/)
