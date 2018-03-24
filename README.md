@@ -7,7 +7,7 @@
 
 # Wiring
 
-buttons
+Buttons
 - buttonDown => GPIO 2
 - buttonUP => GPIO 3
 - bottomLimit => GPIO 4
