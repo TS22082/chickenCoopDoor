@@ -30,7 +30,7 @@ void setup() {
 }
 
 void loop() {
-  buttonUpPressed = digitalRead(buttonUp);
+  int buttonUpPressed = digitalRead(buttonUp);
   if (buttonUpPressed == 1){
     while (digitalRead(topLimit) != 1){
       doorStepperMotor.step(1);
@@ -39,7 +39,7 @@ void loop() {
     buttonUpPressed = 0;
   }
 
-  buttonDownPressed = digitalRead(buttonDown);
+  int buttonDownPressed = digitalRead(buttonDown);
   if (buttonDownPressed == 1){
     while (digitalRead(bottomLimit) != 1){
       doorStepperMotor.step(-1);
