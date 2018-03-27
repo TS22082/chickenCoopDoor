@@ -8,11 +8,11 @@ const int topLimit = 5;
 const int stepsPerRevolution = 32;
 
 const int blue = 8;
-const int pink = 9;
 const int yellow = 10;
+const int pink = 9;
 const int orange = 11;
 
-Stepper doorStepperMotor = Stepper(stepsPerRevolution, blue, pink, yellow, orange);
+Stepper doorStepperMotor = Stepper(stepsPerRevolution, blue, yellow, pink, orange);
 
 void setup() {
   pinMode(buttonUp, INPUT);
@@ -30,6 +30,7 @@ void setup() {
 }
 
 void loop() {
+  
   int buttonUpPressed = digitalRead(buttonUp);
   if (buttonUpPressed == 1){
     while (digitalRead(topLimit) != 1){
